@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/linear_gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <TextView
+        android:text="Nutricare Baby"
+        android:textColor="#1A237E "
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <EditText
+        android:id="@+id/etMail"
+        android:textColor="@color/black"
+        android:textColorHint="@color/textColor2"
+        android:backgroundTint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:drawableStart="@drawable/icono_mail"
+        android:drawablePadding="8dp"
+        android:hint="Email"/>
+
+
+    <EditText
+        android:id="@+id/etContraseña"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:textColorHint="@color/textColor2"
+        android:backgroundTint="@color/black"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/icono_pass"
+        android:drawablePadding="8dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:text="Ingresar"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        android:background="@drawable/rounded_textview4"
+        android:onClick="mtdLobby"
+
+        android:layout_gravity="center"
+        android:paddingHorizontal="120dp"
+        android:paddingVertical="10sp"
+        android:layout_marginTop="40sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Registrarse"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        android:background="@drawable/rounded_textview4"
+        android:onClick="mtdRegistro"
+
+        android:layout_gravity="center"
+        android:paddingHorizontal="100dp"
+        android:paddingVertical="10sp"
+        android:layout_marginTop="40sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

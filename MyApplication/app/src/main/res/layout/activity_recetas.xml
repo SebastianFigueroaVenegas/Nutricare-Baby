@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:orientation="vertical"
+        android:background="@drawable/linear_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Recetas">
+
+        <LinearLayout
+            android:background="@drawable/rounded_textview3"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Agregar Recetas"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#FAFFDF"
+                android:layout_gravity="center"
+                android:paddingHorizontal="110dp"
+                android:paddingVertical="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Titulo Receta"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_textview2"
+                android:onClick="mtdIrLeche"
+                android:layout_gravity="center"
+                android:paddingHorizontal="73dp"
+                android:paddingVertical="20sp"
+                android:layout_marginTop="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/etTitulo"
+                android:hint="Titulo"
+                android:background="@drawable/et_border"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="¿Meses del Bebé?"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_textview2"
+                android:onClick="mtdIrLeche"
+                android:layout_gravity="center"
+                android:paddingHorizontal="50dp"
+                android:paddingVertical="20sp"
+                android:layout_marginTop="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:id="@+id/spinnerMeses"
+                android:entries="@array/arrMesesLeche"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:text="Descripción"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/rounded_textview2"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="73dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/etDescripcion"
+                android:hint="Descripción"
+                android:textColorHint="@color/textColor2"
+                android:textColor="@color/black"
+                android:gravity="start"
+                android:background="@drawable/et_border"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:id="@+id/btn_agregar"
+                android:text="Agregar"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_textview5"
+                android:onClick="mtdAgregarReceta"
+                android:layout_gravity="center"
+                android:paddingHorizontal="100dp"
+                android:paddingVertical="20sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:text="Atrás"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded_textview4"
+            android:onClick="mtdIrLobby"
+            android:layout_gravity="center"
+            android:paddingHorizontal="100dp"
+            android:paddingVertical="10sp"
+            android:layout_marginTop="60sp"
+            android:layout_marginBottom="60sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

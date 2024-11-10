@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@drawable/linear_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Leche_info">
+
+    <!-- ScrollView to make content scrollable -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="@drawable/rounded_textview3"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Leche"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="#FAFFDF"
+                    android:layout_gravity="center"
+                    android:paddingHorizontal="155dp"
+                    android:paddingVertical="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/infoTextView"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:background="@drawable/rounded_textview2"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:layout_marginTop="50sp"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:background="@drawable/rounded_textview2"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="50sp"
+                    android:layout_marginBottom="50sp"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Convertidor"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:padding="10dp"
+                        android:background="@drawable/rounded_textview4"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:paddingHorizontal="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/inputOnza"
+                            android:inputType="numberDecimal"
+                            android:background="@drawable/et_border"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/inputGramo"
+                            android:inputType="numberDecimal"
+                            android:background="@drawable/et_border"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:paddingHorizontal="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="Onza"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:text="Gramo"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:text="Atrás"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/rounded_textview4"
+                android:onClick="mtdIrLeche"
+                android:layout_gravity="center"
+                android:paddingHorizontal="100dp"
+                android:paddingVertical="10sp"
+                android:layout_marginTop="70sp"
+                android:layout_marginBottom="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

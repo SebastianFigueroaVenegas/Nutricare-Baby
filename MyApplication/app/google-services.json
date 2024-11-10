@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "888241413993",
+    "project_id": "nutricarebaby",
+    "storage_bucket": "nutricarebaby.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888241413993:android:95103e9fa079401f16e7f8",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZw4qhDZCq9pQX1HFLKykLlowjGChuxZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

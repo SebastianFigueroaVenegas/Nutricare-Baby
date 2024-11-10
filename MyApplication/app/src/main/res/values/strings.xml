@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="importantes">
+        Esta aplicación está diseñada como una referencia para ayudar a recordar aspectos relacionados con la alimentación de bebés. Sin embargo, siempre debe seguir las recomendaciones y pautas proporcionadas por su médico o profesional de salud antes de tomar cualquier decisión sobre la alimentación o el cuidado de su bebé
+
+    </string>
+
+    <string name="leche_mes_1">
+    Para la edad de un mes un bebé debería tomar:\n\n
+
+    450ml a 600ml de Leche \n\n
+
+    Nota: Se recomienda 8-12 tomas al día, de 60-90 ml cada una.
+    </string>
+
+    <string name="leche_mes_2">
+        Para la edad de dos meses un bebé debería tomar:\n\n
+
+        600ml a 750ml de Leche \n\n
+
+        Nota: Se recomienda 6-8 tomas al día, de 90-120 ml cada una.
+    </string>
+
+    <string name="leche_mes_3">
+        Para la edad de tres meses un bebé debería tomar:\n\n
+
+        600ml a 750ml de Leche \n\n
+
+        Nota: Se recomienda 5-6 tomas al día, de 120-150 ml cada una.
+    </string>
+
+    <string name="leche_mes_4">
+        Para la edad de cuatro meses un bebé debería tomar:\n\n
+
+        750ml a 900ml de Leche \n\n
+
+        Nota: Se recomienda 5-6 tomas al día, de 120-180 ml cada una.
+    </string>
+
+    <string name="leche_mes_5">
+        Para la edad de cinco meses un bebé debería tomar:\n\n
+
+        750ml a 900ml de Leche \n\n
+
+        Nota: Se recomienda 5-6 tomas al día, de 120-180 ml cada una.
+    </string>
+
+    <string name="leche_mes_6">
+        Para la edad de seis meses un bebé debería tomar:\n\n
+
+        750ml a 900ml de Leche \n\n
+
+        Nota: Comienza la introducción de sólidos, pero la leche sigue siendo la principal fuente de alimento.
+    </string>
+
+    <string name="leche_mes_7">
+        Para la edad de siete meses un bebé debería tomar:\n\n
+
+        700ml a 900ml de Leche \n\n
+
+        Nota: Se recomienda 3-5 tomas al día, junto con alimentos sólidos.
+    </string>
+
+    <string name="leche_mes_8">
+        Para la edad de ocho meses un bebé debería tomar:\n\n
+
+        700ml a 900ml de Leche \n\n
+
+        Nota: Se recomienda 3-5 tomas al día, con alimentos sólidos.
+    </string>
+
+    <string name="leche_mes_9">
+        Para la edad de nueve meses un bebé debería tomar:\n\n
+
+        600ml a 750ml de Leche \n\n
+
+        Nota: Se recomienda 3-4 tomas al día, con alimentos sólidos.
+    </string>
+
+        <string name="leche_mes_10">
+        Para la edad de diez meses un bebé debería tomar:\n\n
+
+        600ml a 750ml de Leche \n\n
+
+        Nota: Se recomienda 3-4 tomas al día, con alimentos sólidos.
+    </string>
+
+    <string name="leche_mes_11">
+        Para la edad de once meses un bebé debería tomar:\n\n
+
+        500ml a 750ml de Leche \n\n
+
+        Nota: Se recomienda 3-4 tomas al día, con alimentos sólidos.
+    </string>
+
+    <string name="leche_mes_12">
+        Para la edad de doce meses un bebé debería tomar:\n\n
+
+        500ml a 750ml de Leche \n\n
+
+        Nota: Se recomienda 3-4 tomas al día, con alimentos sólidos.
+    </string>
+
+
+
+
+    <string name="comida_mes_6">
+        Para la edad de seis meses un bebé debería comer:\n\n
+
+        - 50 a 100 gramos de Papilla más 50 a 75 gramos de puré de frutas.\n\n
+        - 1.76 a 3.53 onzas de papilla más 1.76 a 2.64 onzas de puré de frutas.\n\n
+
+        La leche sigue siendo la fuente principal de alimentación; se pueden introducir pequeñas cantidades de papilla de frutas, verduras y cereales.\n
+
+        Se puede complementar con un poco de aceite para favorecer el fortalecimiento de los huesos.
+
+    </string>
+
+    <string name="comida_mes_7">
+        Para la edad de siete meses un bebé debería comer:\n\n
+
+        - 100 a 150 gramos de Papilla más 50 a 75 gramos de puré de frutas.\n\n
+        - 3.53 a 5.29 onzas de papilla más 1.76 a 2.64 onzas de puré de frutas.\n\n
+
+        Se recomienda purés más espesos de frutas, verduras y proteínas como pollo o carne magra.\n
+
+        Se puede complementar con un poco de aceite para favorecer el fortalecimiento de los huesos.
+
+    </string>
+
+    <string name="comida_mes_8">
+        Para la edad de ocho meses un bebé debería comer:\n\n
+
+        - 150 a 200 gramos de Papilla más 75 a 100 gramos de puré de frutas.\n\n
+        - 5.29 a 7.05 onzas de papilla más 2.64 a 3.53 onzas de puré de frutas.\n\n
+
+        Introducir alimentos con más textura, incluyendo frutas, verduras, proteínas y cereales.\n
+
+        Se puede complementar con un poco de aceite para favorecer el fortalecimiento de los huesos.
+
+    </string>
+
+    <string name="comida_mes_9">
+        Para la edad de nueve meses un bebé debería comer:\n\n
+
+        - 150 a 200 gramos de Papilla más 75 a 100 gramos de puré de frutas.\n\n
+        - 5.29 a 7.05 onzas de papilla más 2.64 a 3.53 onzas de puré de frutas.\n\n
+
+        Se recomienda comidas variadas con más textura y se pueden introducir lácteos como yogur natural.\n
+
+        Se puede complementar con un poco de aceite para favorecer el fortalecimiento de los huesos.
+
+    </string>
+
+    <string name="comida_mes_10">
+        Para la edad de diez meses un bebé debería comer:\n\n
+
+        - 200 a 250 gramos de Papilla más 100 a 125 gramos de puré de frutas.\n\n
+        - 7.05 a 8.82 onzas de papilla más 3.53 a 4.41 onzas de puré de frutas.\n\n
+
+        Alimentos más sólidos y variados, incluyendo arroz, pasta blanda y proteínas.\n
+
+        Se puede complementar con un poco de aceite para favorecer el fortalecimiento de los huesos.
+
+    </string>
+
+    <string name="comida_mes_11">
+        Para la edad de once meses un bebé debería comer:\n\n
+
+        - 200 a 250 gramos de Papilla más 100 a 125 gramos de puré de frutas.\n\n
+        - 7.05 a 8.82 onzas de papilla más 3.53 a 4.41 onzas de puré de frutas.\n\n
+
+        Comidas sólidas en pequeñas porciones, adaptadas a la capacidad de masticación del bebé.\n
+
+        Se puede complementar con un poco de aceite para favorecer el fortalecimiento de los huesos.
+
+    </string>
+
+    <string name="comida_mes_12">
+        Para la edad de doce meses un bebé debería comer:\n\n
+
+        - 250 a 300 gramos de Papilla más 125 a 150 gramos de puré de frutas.\n\n
+        - 8.82 a 10.58 onzas de papilla más 4.41 a 5.29 onzas de puré de frutas.\n\n
+
+        Puede comer la mayoría de los alimentos de la familia, siempre que estén bien cocidos y en trozos pequeños.\n
+
+        Se puede complementar con un poco de aceite para favorecer el fortalecimiento de los huesos.
+    </string>
+
+
+    <string-array name="arrMesesLeche">
+        <item>1 Mes</item>
+        <item>2 Meses</item>
+        <item>3 Meses</item>
+        <item>4 Meses</item>
+        <item>5 Meses</item>
+        <item>6 Meses</item>
+        <item>7 Meses</item>
+        <item>8 Meses</item>
+        <item>9 Meses</item>
+        <item>10 Meses</item>
+        <item>11 Meses</item>
+        <item>12 Meses</item>
+    </string-array>
+
+    <string-array name="arrMesesComida">
+        <item>6 Meses</item>
+        <item>7 Meses</item>
+        <item>8 Meses</item>
+        <item>9 Meses</item>
+        <item>10 Meses</item>
+        <item>11 Meses</item>
+        <item>12 Meses</item>
+    </string-array>
+
+</resources>
+
+
+

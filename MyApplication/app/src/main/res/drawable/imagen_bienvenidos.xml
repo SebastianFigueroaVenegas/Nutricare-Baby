@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/bienvenidos"
+            android:gravity="center"
+            android:width="5px"
+            android:height="5px"/>
+    </item>
+</layer-list>

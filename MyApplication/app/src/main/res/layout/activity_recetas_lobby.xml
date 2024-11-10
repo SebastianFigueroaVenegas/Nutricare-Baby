@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@drawable/linear_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recetas_lobby">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/btn_agregar"
+            android:text="Agregar Receta"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_textview5"
+            android:onClick="mtdIrAgregarReceta"
+            android:layout_gravity="center"
+            android:paddingHorizontal="100dp"
+            android:paddingVertical="20sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Atrás"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded_textview4"
+            android:onClick="mtdIrLobby"
+            android:layout_gravity="center"
+            android:paddingHorizontal="100dp"
+            android:paddingVertical="10sp"
+
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
